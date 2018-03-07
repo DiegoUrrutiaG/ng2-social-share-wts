@@ -1,5 +1,5 @@
 {
-  "name": "ng2-social-share-ws",
+  "name": "ng2-social-share-wts",
   "version": "0.0.1",
   "description": "Angular2 social share module based in ng2-social-share, share urls and content on social networks such as facebook, google+, twitter, pinterest and so on -",
   "main": "./src/ng2-social-share.js",
@@ -56,7 +56,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/DiegoUrrutiaG/ng2-social-share-wts"
+    "url": "https://github.com/DiegoUrrutiaG/ng2-social-share-wts.git"
   },
   "author": {
     "name": "Diego Urrutia G",

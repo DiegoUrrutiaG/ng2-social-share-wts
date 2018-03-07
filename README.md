@@ -9,12 +9,12 @@ Made this, you should include the directive where you want to use it as any othe
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { CeiboShare } from 'ng2-social-share';
+import { SocialShare } from 'ng2-social-share-wts';
 
 @Component({
     selector: 'app-my-fancy-component',
     templateUrl: 'my-fancy-component.component.html',
-    directives:[CeiboShare]
+    directives:[socialShare]
 
 })
 export class myFancyComponent implements OnInit {
@@ -76,12 +76,12 @@ export class WhatsappParams {
  <!--- For this example I am using button, but you can attach the directive to anything you want
     and it will display the popup for share! :D
  -->
-    <button ceiboShare [facebook]="{u: repoUrl}">Facebook</button>
-    <button ceiboShare [linkedIn]="{url:repoUrl}">Linkedin</button>
-    <button ceiboShare [googlePlus]="{url:repoUrl}">Google Plus</button>
-    <button ceiboShare [twitter]="{url:repoUrl, text:'Checkout this awesome ng2 social share directive', hashtags:'angular2, social, ceiboIT'}">Twitter</button>
-    <button ceiboShare [pinterest]="{url:repoUrl, media: imageUrl, description:'Checkout this awesome angular2 directive'}">Pinterest</button>
-	<button ceiboShare [whatsapp]="{text: repoUrl}">Whatsapp</button>
+    <button socialShare [facebook]="{u: repoUrl}">Facebook</button>
+    <button socialShare [linkedIn]="{url:repoUrl}">Linkedin</button>
+    <button socialShare [googlePlus]="{url:repoUrl}">Google Plus</button>
+    <button socialShare [twitter]="{url:repoUrl, text:'Checkout this awesome ng2 social share directive', hashtags:'angular2, social'}">Twitter</button>
+    <button socialShare [pinterest]="{url:repoUrl, media: imageUrl, description:'Checkout this awesome angular2 directive'}">Pinterest</button>
+	<button socialShare [whatsapp]="{text: repoUrl}">Whatsapp</button>
 
 
 

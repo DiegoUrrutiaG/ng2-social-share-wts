@@ -7,9 +7,9 @@ import { LinkedinParams } from './linkedinParams';
 import { WhatsappParams } from '/whatsappParams';
 
 @Directive({
-  selector: '[ceiboShare]'
+  selector: '[socialShare]'
 })
-export class CeiboShare {
+export class SocialShare {
     @Input() facebook : FacebookParams;
     @Input() twitter : TwitterParams;
     @Input() googlePlus : GooglePlusParams;
