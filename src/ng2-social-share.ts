@@ -4,7 +4,7 @@ import { TwitterParams } from './twitterParams';
 import { GooglePlusParams } from './googlePlusParams';
 import { PinterestParams } from './pinterestParams';
 import { LinkedinParams } from './linkedinParams';
-import { WhatsappParams } from '/whatsappParams';
+import { WhatsappParams } from './whatsappParams';
 
 @Directive({
   selector: '[socialShare]'
