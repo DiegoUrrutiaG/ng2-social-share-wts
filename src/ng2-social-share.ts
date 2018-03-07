@@ -15,7 +15,7 @@ export class CeiboShare {
     @Input() googlePlus : GooglePlusParams;
     @Input() pinterest : PinterestParams;
     @Input() linkedIn : LinkedinParams;
-	@Input() whatsapp : WhatsappParams;
+    @Input() whatsapp : WhatsappParams;
     @Input() shareWidth: string;
     @Input() shareHeight: string;
 
