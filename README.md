@@ -1,7 +1,7 @@
 #Usage 
 
 ```javascript
-npm install --save ng2-social-share
+npm install --save ng2-social-share-ws
 ```
 
 
