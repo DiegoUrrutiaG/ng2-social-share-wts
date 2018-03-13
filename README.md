@@ -1,7 +1,6 @@
 #Usage 
 
 ```javascript
-npm install --save ng2-social-share-wts
 ```
 
 
